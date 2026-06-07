@@ -8,7 +8,7 @@ import Model.Empleado;
 import Model.Rut;
 
 /**
- * 
+ * clase principal de la aplicación, donde se crean los objetos de tipo Empleado y se muestran sus datos por consola.
  * @author Carlos Palma G.
  */
 public class LlanquihueTour {
