@@ -73,7 +73,7 @@ public class UtilDireccion {
     public boolean ValidarNumeracion(int numeracion) throws DireccionException{
         if(numeracion < 0)
         {
-            throw new DireccionException("La numeración debe ser mayor o igual a 0");
+            throw new DireccionException("La numeracion debe ser mayor o igual a 0");
         }
         return true;
     }

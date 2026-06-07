@@ -19,17 +19,17 @@ public class UtilRut
         throws RutInvalidoException    
     {
         if(isNull(rut)|| rut.strip().isBlank()) {
-            throw new RutInvalidoException("El Rut no puede ser nulo o vacío");
+            throw new RutInvalidoException("El Rut no puede ser nulo o vacio");
         }
         
         rut = LimpiarRut(rut).toUpperCase();
         
         if(!rut.matches("[0-9]{7,8}[0-9K]")){
-            throw new RutInvalidoException("El Rut no tiene un formato válido");
+            throw new RutInvalidoException("El Rut no tiene un formato valido");
         }
         
         if(!ValidacionMatematicaRut(rut)){
-            throw new RutInvalidoException("El dígito verificador no coincide");
+            throw new RutInvalidoException("El digito verificador no coincide");
         }
         return true;
     }
@@ -68,7 +68,6 @@ public class UtilRut
         int contador=0;
         for(int i = rut.length()-1; i >= 0; i--){               
             rutIntArray[contador] = Character.getNumericValue(rut.charAt(i));
-                    //Integer.parseInt(numero);
             contador++;
         }        
         return rutIntArray;

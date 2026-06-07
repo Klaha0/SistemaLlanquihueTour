@@ -106,7 +106,7 @@ private String ciudad;
     @Override
     public String toString()
     {
-            return "Direccion: " + this.calle + " " + this.numero +", " + this.comuna + ", " + this.ciudad;
+            return "Dirección: " + this.calle + " " + this.numero +", " + this.comuna + ", " + this.ciudad;
     }
 }
 
