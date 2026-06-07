@@ -1,6 +1,4 @@
-!\[Duoc UC](https://www.duoc.cl/wp-content/uploads/2022/09/logo-0.png)
-
-# 🧠 Evaluación Final Transversal – Desarrollo Orientado a Objetos I
+# 🧠 Evaluación Individual Semana 3 – Desarrollo Orientado a Objetos I
 
 ## 👤 Autor del proyecto
 
@@ -22,12 +20,12 @@ El proyecto fue desarrollado a partir del caso de la agencia de turismo, cuyo re
 
 ```plaintext
 📁 src/
-├── App/       		  # Clase principal LlanquihueTour contiene el método main.
-├── Model/     		  # Clases de dominio (Persona, Empleado, Dirección, Rut)
+├── App/       		    # Clase principal LlanquihueTour contiene el método main.
+├── Model/     		    # Clases de dominio (Persona, Empleado, Dirección, Rut)
+├── ExceptionPersona	# Clase para manejo de excepciones de la clase Persona.
+└── Util/     		    # Utilidades y validaciones para las entidades del sistema.
 
-├── ExceptionPersona	  # Clase para manejo de excepciones de la clase Persona.
-└── Util/     		  # Utilidades y validaciones para las entidades del sistema.
-
+```
 
 \---
 
