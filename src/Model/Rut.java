@@ -34,7 +34,7 @@ public class Rut {
     
     @Override
     public String toString(){
-        return "Rut: " + this.rut;
+        return "Rut: " + this.rut.replace(".", "");
     }
     
 }

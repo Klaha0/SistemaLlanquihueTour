@@ -1,6 +1,6 @@
 package ExceptionPersona;
 
-/**Clase de excepcion base para clase persona
+/**Clase de excepción base para clase persona
  * 
  */
 public class PersonaException extends Exception {

@@ -16,10 +16,11 @@ public class LlanquihueTour {
    
     public static void main(String[] args) throws RutInvalidoException, DireccionException, PersonaException
     {
+        //Se habilita el sistema de caracteres utf-8 para manejo de tíldes.
         System.setOut(new java.io.PrintStream(System.out, true, java.nio.charset.StandardCharsets.UTF_8));
 
-        var rut1 = new Rut("15.941.450-7");        
-        var rut2 = new Rut("23.056.634-8");     
+        var rut1 = new Rut("15941450-7");        
+        var rut2 = new Rut("23056634-8");     
         var rut3 = new Rut("17.228.449-3");
         
         var direccion1 = new Direccion("José Miguel Infante", 5790, "Renca", "Santiago");
