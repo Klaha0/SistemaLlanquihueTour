@@ -22,7 +22,6 @@ El proyecto fue desarrollado a partir del caso de la agencia de turismo, cuyo re
 📁 src/
 ├── App/       		  # Clase principal LlanquihueTour contiene el método main.
 ├── Model/     		  # Clases de dominio (Persona, Empleado, Dirección, Rut)
-
 ├── ExceptionPersona	  # Clase para manejo de excepciones de la clase Persona.
 └── Util/     		  # Utilidades y validaciones para las entidades del sistema.
 
