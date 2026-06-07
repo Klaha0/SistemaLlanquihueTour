@@ -1,4 +1,4 @@
-# 🧠 Evaluación Final Transversal – Desarrollo Orientado a Objetos I
+# 🧠 Evaluación Individual Semana 3 – Desarrollo Orientado a Objetos I
 
 ## 👤 Autor del proyecto
 
